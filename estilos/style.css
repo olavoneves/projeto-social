@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url('../imagens/pexels-kübra-kuzu-17658108.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+section#aparelho {
+    height: 300px;
+    width: 350px;
+    background-image: url('../imagens/8499474.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+iframe#tela {
+    position: relative;
+    top: 34px;
+    left: 51px;
+    width: 250px;
+    height: 178px;
+}
